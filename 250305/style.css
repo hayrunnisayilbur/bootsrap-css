@@ -1,3 +1,10 @@
+:root{
+    --pembe: #e91546;
+    --turuncu:#fc6f22;
+    --yesil: #71b908;
+    --koyumavi: #075192;
+    --acikmavi: #1295D5;
+}
 header{
     background-color: #075192;
     padding-top: 20px;
@@ -36,4 +43,42 @@ header{
     height: 10px;
     background-color: #1295d5;
     border: solid #fff 3px;
+}
+
+#haber_baslik,#duyuru_baslik,#islem_baslik{
+    padding: 15px;
+    text-align: center;
+    color: #c3d9eb;
+    font-size: 1.5rem;
+  border-bottom-right-radius: 35px;
+}
+#haber_baslik{
+    background-color: var(--pembe);
+}
+#duyuru_baslik{
+    background-color: var(--turuncu);
+}
+#islem_baslik{
+    background-color:var(--yesil);
+}
+.alt-baslik{
+    color: var(--koyumavi);
+}
+#haberler .list-group-item:hover{
+    color: var(--pembe);
+}
+.table th{
+    color: var(--acikmavi);
+}
+.kurum-resim{
+    height: 100px;
+    width: 200px;
+}
+.devam{
+    background-color: var(--acikmavi);
+    width: 100px;
+    max-height: fit-content;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
 }
